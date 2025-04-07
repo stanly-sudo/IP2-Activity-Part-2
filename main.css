@@ -1,0 +1,27 @@
+@font-face{ font-family: "Poppins-Regular"; src: url(assets/Poppins-Regular.ttf); } 
+@font-face{ font-family: "Poppins-Medium"; src: url(assets/Poppins-Medium.ttf); } 
+@font-face{ font-family: "Righteous"; src: url(assets/Righteous-Regular.ttf); } 
+
+span{ color: rgb(32, 32, 32); }
+
+input
+{
+    outline-style: none;
+    border-style: none;
+    border: 1px solid rgb(160, 160, 160);
+    width: 164px;
+    height: 24px;
+}
+input[type="password"]::-ms-reveal, input[type="password"]::-webkit-textfield-decoration-container{
+    display: none;
+}
+
+button:focus 
+{
+    border: none;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}

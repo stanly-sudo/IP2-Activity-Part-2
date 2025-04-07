@@ -1,0 +1,1 @@
+changed concept of ramen shop to cloud storage web app due to file checking activity.
