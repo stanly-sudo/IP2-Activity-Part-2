@@ -1,4 +1,5 @@
 <?php
+    include_once("page_restriction.php");
     include_once("fetch_user_data_db.php");
 
     class uploadtocloud

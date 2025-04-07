@@ -1,7 +1,6 @@
 <?php
-    include_once("fetch_user_data_db.php");
-
     include_once("page_restriction.php");
+    include_once("fetch_user_data_db.php");
 
     if($_SERVER['REQUEST_METHOD']==='POST' && isset($_POST['search_for']))
     {

@@ -1,4 +1,6 @@
 <?php
+    include_once("page_restriction.php");
+
     $file_hash = '';
     $comparison_result = '';
 
